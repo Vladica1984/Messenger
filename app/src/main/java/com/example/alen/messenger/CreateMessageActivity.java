@@ -24,6 +24,15 @@ public class CreateMessageActivity extends Activity {
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
         intent.putExtra(Intent.EXTRA_TEXT,messageText);
+
+        // druga opcija, kad nemam mogucnost postavljanja default-nog
+        // izbora!!!
+
+        //String chooserTitle = getString(R.string.chooser);
+        //Intent choosenIntent = Intent.createChooser(intent, chooserTitle);
+        //startActivity(choosenIntent);
+
         startActivity(intent);
+
     }
 }
