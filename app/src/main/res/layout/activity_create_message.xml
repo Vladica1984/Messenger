@@ -28,6 +28,6 @@
         android:layout_below="@+id/send"
         android:layout_marginTop="18dp"
         android:ems="10"
-        android:hint="Unesi jebeni tekst!!!"/>
+        android:hint="Unesi tekst!"/>
 
 </RelativeLayout>
